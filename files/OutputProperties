@@ -1,0 +1,83 @@
+2017-09-27T16:23:58.432+01:00[Europe/Dublin]
+Property Registration Number: 1
+Owner: George
+Address: Paradise_3
+Cost per day: 50
+Days rented: 0
+Property Type: Apartment
+Story number: 1
+Number of beds: 2
+
+Property Registration Number: 2
+Owner: John
+Address: Somewhere_4
+Cost per day: 50
+Days rented: 0
+Property Type: Apartment
+Story number: 2
+Number of beds: 3
+
+Property Registration Number: 3
+Owner: Jane
+Address: Devil’s_place_3
+Cost per day: 50
+Days rented: 0
+Property Type: Apartment
+Story number: 2
+Number of beds: 4
+
+Property Registration Number: 4
+Owner: George
+Address: Paradise_13
+Cost per day: 60
+Days rented: 0
+Property Type: House
+Number of stories: 1
+Cleaning fee: 50
+
+Property Registration Number: 5
+Owner: John
+Address: Somewhere_14
+Cost per day: 60
+Days rented: 0
+Property Type: House
+Number of stories: 2
+Cleaning fee: 50
+
+Property Registration Number: 6
+Owner: Jane
+Address: Devil’s_place_13
+Cost per day: 60
+Days rented: 0
+Property Type: House
+Number of stories: 4
+Cleaning fee: 60
+
+Property Registration Number: 7
+Owner: George
+Address: Paradise_23
+Cost per day: 50
+Days rented: 0
+Property Type: Villa
+Luxury tax per day: 10
+Room service cost per day: 10
+
+Property Registration Number: 8
+Owner: John
+Address: Somewhere_24
+Cost per day: 40
+Days rented: 0
+Property Type: Villa
+Luxury tax per day: 15
+Room service cost per day: 20
+
+Property Registration Number: 9
+Owner: Jane
+Address: Devil’s_place_23
+Cost per day: 55
+Days rented: 0
+Property Type: Villa
+Luxury tax per day: 20
+Room service cost per day: 30
+
+END---------------
