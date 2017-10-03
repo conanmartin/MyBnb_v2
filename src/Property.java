@@ -85,12 +85,7 @@ public class Property implements RentalItems {
             while (fileScanner.hasNext()) {
                 lineCount++;
                 line = fileScanner.nextLine();
-//                System.out.println(line);
-//                int i = 0;
-//                for (String word : line.split(" ")){
-//                    System.out.println(i + ": " + word);
-//                    i++;
-//                }
+
                 String[] word = line.split(" ");
                 if(word[0].equals("1")){
                     Apartment created = new Apartment(word[5], word[6], Integer.parseInt(word[3]), Integer.parseInt(word[1]), Integer.parseInt(word[2]), Integer.parseInt(word[4]));
@@ -120,9 +115,9 @@ public class Property implements RentalItems {
             JTextField yField = new JTextField(5);
 
             JPanel myPanel = new JPanel();
-            myPanel.add(new JLabel("Registration No.:"));
+            myPanel.add(new JLabel("Property Registration No.:"));
             myPanel.add(xField);
-            myPanel.add(Box.createHorizontalStrut(15)); // a spacer
+            myPanel.add(Box.createHorizontalStrut(15));
             myPanel.add(new JLabel("Days:"));
             myPanel.add(yField);
 
@@ -144,7 +139,7 @@ public class Property implements RentalItems {
                         }
                     }
                     if(noneFound) {
-                        JOptionPane.showMessageDialog(null, "No property found with registation number. Please try again");
+                        JOptionPane.showMessageDialog(null, "No property found with registration number. Please try again");
                     }
                 }
                 catch (NumberFormatException e){
@@ -158,12 +153,6 @@ public class Property implements RentalItems {
         }
     }
 
-//    public static void fillAllProperties(){
-//
-//            Apartment.fillProperties();
-//            House.fillProperties();
-//            Villa.fillProperties();
-//    }
 
     public static void printAllProperties() {
         ZonedDateTime dateTime = ZonedDateTime.now();
@@ -175,7 +164,7 @@ public class Property implements RentalItems {
             for (Property property : propertyArrayList) {
                 output += property + "\n";
             }
-            output += "\nEND---------------";
+            output += Property.calculateTotalIncome() + "\n---------END----------";
             printOut.print(output);
             printOut.close();
         }
@@ -184,12 +173,12 @@ public class Property implements RentalItems {
         }
     }
 
-    public static void calculateTotalIncome() {
+    public static String calculateTotalIncome() {
         int totalIncome = 0;
         for (Property property : Property.getPropertyArrayList()){
             totalIncome += property.getIncome();
         }
-        System.out.println("\nTOTAL INCOME\n€" + totalIncome);
+        return "\nTOTAL INCOME\n€" + totalIncome;
     }
 
     public int getIncome () {

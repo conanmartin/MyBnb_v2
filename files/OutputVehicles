@@ -1,0 +1,60 @@
+2017-10-03T17:00:42.475+01:00[Europe/Dublin]
+Vehicle Registration Number: 1
+Owner: Conan
+Cost per day: 50
+Days rented: 0
+Vehicle Type: Car
+Number of Passengers: 4
+
+Vehicle Registration Number: 2
+Owner: John
+Cost per day: 100
+Days rented: 0
+Vehicle Type: Car
+Number of Passengers: 4
+
+Vehicle Registration Number: 3
+Owner: Craig
+Cost per day: 60
+Days rented: 0
+Vehicle Type: Car
+Number of Passengers: 3
+
+Vehicle Registration Number: 4
+Owner: Daragh
+Cost per day: 80
+Days rented: 0
+Vehicle Type: Car
+Number of Passengers: 2
+
+Vehicle Registration Number: 5
+Owner: Richie
+Cost per day: 100
+Days rented: 0
+Vehicle Type: Truck
+Cargo Weight: 10
+
+Vehicle Registration Number: 6
+Owner: Sam
+Cost per day: 200
+Days rented: 0
+Vehicle Type: Truck
+Cargo Weight: 25
+
+Vehicle Registration Number: 7
+Owner: Aoife
+Cost per day: 300
+Days rented: 0
+Vehicle Type: Truck
+Cargo Weight: 30
+
+Vehicle Registration Number: 8
+Owner: Ralph
+Cost per day: 250
+Days rented: 0
+Vehicle Type: Truck
+Cargo Weight: 25
+
+TOTAL INCOME
+€0
+---------END----------

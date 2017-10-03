@@ -3,6 +3,9 @@ public class Main {
         Property.fillPropertiesFromFile();
         Property.addRentalDays();
         Property.printAllProperties();
-//        Property.calculateTotalIncome();
+
+        Vehicle.fillVehiclesFromFile();
+        Vehicle.addRentalDays();
+        Vehicle.printAllProperties();
     }
 }
